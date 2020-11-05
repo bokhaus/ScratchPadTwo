@@ -42,3 +42,18 @@ $('#promo').wScratchPad({
         }
       }
  });
+
+ // Prevent refresh by mouse
+ $(function () {
+    $(this).bind("contextmenu", function (e) {
+         alert('You are only allowed one chance per day!');
+       e.preventDefault();
+    
+    });
+});
+
+// $(window).bind('beforeunload', function(e) { 
+//     return "Unloading this page may lose data. What do you want to do..."
+//     e.preventDefault();
+// });
+
