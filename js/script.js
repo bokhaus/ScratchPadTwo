@@ -40,7 +40,7 @@ $('#promo').wScratchPad({
         if ((percent > 50) && (promoCode != '')) {
           $('.promo-container').show();
           $('body').removeClass('not-selectable');
-          $('.promo-code').html('Your code is: ' + promoCode);
+          $('.promo-code').html('Your discount code is: ' + promoCode);
         }
       }
  });
