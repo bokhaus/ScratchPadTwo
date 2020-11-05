@@ -10,19 +10,19 @@ selectBG = bgArray[Math.floor(Math.random() * bgArray.length)];
 
 switch (selectBG){
     case bg1:
-        promoCode = "Scratch15";
+        promoCode = "<b>&nbsp; Scratch15 <b>";
         break;
     case bg2:
-        promoCode = "Scratch20";
+        promoCode = "<b>&nbsp; Scratch20 <b>";
         break;
     case bg3: 
-        promoCode = "Scratch30";
+        promoCode = "<b>&nbsp; Scratch30 <b>";
         break;
     case bg4: 
-        promoCode = "ScratchFreeTee";
+        promoCode = "<b>&nbsp; ScratchFreeTee <b>";
         break;
     case bg5: 
-        promoCode = "Sorry, not a winner today.";
+        promoCode = "<b>&nbsp; Sorry, not a winner. <b>";
         break;
 }
 
