@@ -26,6 +26,8 @@ switch (selectBG){
         break;
 }
 
+
+// ScratchPad hidden div display
 $('#promo').wScratchPad({
     size        : 70,       
     bg:  selectBG,
@@ -43,17 +45,29 @@ $('#promo').wScratchPad({
       }
  });
 
- // Prevent refresh by mouse
+// Prevent refresh by mouse JQuery
  $(function () {
     $(this).bind("contextmenu", function (e) {
          alert('You are only allowed one chance per day!');
        e.preventDefault();
-    
     });
 });
+
+
+
+/*************
+ * Test Area
+ *************/
 
 // $(window).bind('beforeunload', function(e) { 
 //     return "Unloading this page may lose data. What do you want to do..."
 //     e.preventDefault();
 // });
 
+// function doSomething(e) {
+//     var rightclick;
+//     if (!e) var e = window.event;
+//     if (e.which) rightclick = (e.which == 3);
+//     else if (e.button) rightclick = (e.button == 2);
+//     alert('Rightclick: ' + rightclick); // true or false
+// }
