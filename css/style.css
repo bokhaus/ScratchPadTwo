@@ -3,11 +3,14 @@ html {
   }
   *, *:before, *:after {
     box-sizing: inherit;
+    font-size: 62.5%;
   }
   .scratchpad{
-    width: 450px;
-    height: 445px;
-    border: solid 10px #FFFFFF;
+    width: 45rem;
+    height: 44.5rem;
+    /* width: 450px;
+    height: 445px; */
+    border: solid 1rem #FFFFFF;
     margin:0 auto;
   }
   body {
@@ -38,19 +41,24 @@ html {
       border-radius:5px;
       -moz-border-radius:5px;
       -webkit-border-radius:5px;
-      width:450px;
-      padding:20px;
+      width: 45rem;
+      /* width:450px; */
+      padding:2rem;
+      /* padding:20px; */
       margin:0 auto;
       text-align:center;
       font-family:'Open Sans', Arial,Sans-serif;
       color:#333;
-      font-size:16px;
-      margin-top:20px;
-  }
+      font-size:1.5rem;
+      margin-top:2rem;
+      /* font-size:16px;
+      margin-top:20px; */
+    }
   .btn {
     background:#56CFD2;
     color:#FFF;
-    padding:10px 25px;
+    padding:1rem 2.5rem;
+    /* padding:10px 25px; */
     display:inline-block;
     margin-top:15px;
     text-decoration:none;
